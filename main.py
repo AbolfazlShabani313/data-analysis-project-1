@@ -2,7 +2,7 @@ import pandas as pd
 import jdatetime  
 
 # بارگذاری داده‌ها
-df = pd.read_csv("online_retail.xlsx")
+df = pd.read_excel("D:/online_retail.xlsx")
 
 # حذف ردیف‌های تکراری
 df = df.drop_duplicates()
